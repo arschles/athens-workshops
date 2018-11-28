@@ -47,7 +47,9 @@ You'll walk away from this workshop knowing:
 - What Athens is and how to integrate it with your project
 - How to get involved with Athens
 
-Ready to get started? Let's go to the [outline](./OUTLINE.md) that has all the steps and links to all the workshops. Join me for an emoji-filled journey! :rocket: 
+## Ready To Get Started?
+
+Go check out the [outline](./OUTLINE.md). It has all the steps and links to all the workshops. Join me for an emoji-filled journey! :rocket:
 
 ![athens gopher](./images/athens-gopher.png)
 
