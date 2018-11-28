@@ -114,3 +114,21 @@ I'm going to show a demo where I run an Athens locally, shut down my WiFi, empty
 1. ... and finally, do a `go build`
 
 Check it out! We can still build our app without any internet access... :relieved:
+
+## What's Next?
+
+We've worked hard to make the Athens community a really nice place to be, and we'd love to have you join us!
+
+Whether you want to "lurk 'n' learn" (TM [@carolynvs](https://twitter.com/carolynvs)), ask a question, chat with us, or contribute, come join us!
+
+We wrote a lot about all the ways you you can get involved [here](https://docs.gomods.io/contributing/community/participating/), but here are three of my favorites:
+
+1. Come say hi in the `#athens` channel in the [Gophers Slack](https://invite.slack.golangbridge.org/)
+2. Submit or comment on an [issue](https://github.com/gomods/athens/issues) in our repository
+3. Fix a [good first issue](https://github.com/gomods/athens/issues?q=is%3Aopen+is%3Aissue+label%3A%22good+first+issue%22) if you're feeling like you want to start contributing
+
+Finally, as one of the creators of this project, I want more than anything else for our community to be a nice, respectful, and welcoming place to work. We work hard every day to make sure it is.
+
+_**Absolutely everyone is welcome**, regardless of your background, experience, gender, and anything else._
+
+_If you want to work with us, come join us! We'll do everything we can to welcome you and help you get involved._
