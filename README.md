@@ -4,6 +4,8 @@
 
 This repository has outlines, materials and code for [Athens](https://docs.gomods.io) workshops.
 
+There are also [slides](https://docs.google.com/presentation/d/1QVfVTg6EnVGZeg_6tvyMT1ZIemyzwPE8GlARUxyfUNw/edit?usp=sharing) to go along with this workshop.
+
 Let's get started!
 
 ## Abstract
