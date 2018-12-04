@@ -32,7 +32,7 @@ Let's get started :white_check_mark:
 Now let's do a final bonus round!
 
 1. I'm going to start up an Athens server on my local machine
-    - `docker run --rm -p 3000:3000 gomods/athens:3000` for those interested
+    - `docker run --rm -p 3000:3000 gomods/athens:v0.2.0` for those interested
 1. Next, I'm going to fire up an [ngrok](https://ngrok.com) tunnel so that you can access it over the internet
 1. Now, point your `GOPROXY` to that address and clear your cache once more
 1. When you `go build`, let's look at the log messages that my local Athens spits out
