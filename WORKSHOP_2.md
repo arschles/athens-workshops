@@ -14,13 +14,14 @@ Let's get started :white_check_mark:
 1. Let's remove the `hugo` binary we built last time (so we can show that it built again)
     1. On Mac/Linux, `rm hugo`
 1. Now let's tell the `go` CLI to download dependencies from Athens. Set the `GOPROXY` environment variable to `https://athens.azurefd.net`
-    1. This is an experimental Athens proxy on the internet that serves modules over a CDN
+    1. This is a preview Athens proxy on the internet that serves modules over a CDN
     1. On Mac/Linux, run `export GOPROXY=https://athens.azurefd.net`
     2. On Windows PowerShell, run `$env:GOPROXY = "https://athens.azurefd.net"`
 1. Now the CLI will use the modules HTTP API to download _all_ the modules we need
 1. Next, let's clear out the global cache on our machines to make sure we're downloading everything from the Athens server
     1. `sudo rm -rf $GOPATH/pkg/mod` on Mac/Linux
     2. `Remove-Item -Recurse -Force %GOPATH%/pkg/mod` on Windows Powershell (see [here](https://stackoverflow.com/questions/1752677/how-to-recursively-delete-an-entire-directory-with-powershell-2-0)) for info
+1. ... and delete the `./hugo` binary too
 1. Now, let's try a `go build` again.
     1. Notice that we have the same log output?
     1. ... this time it's downloading over the HTTP API.
@@ -29,7 +30,7 @@ Let's get started :white_check_mark:
     1. On Mac/Linux, it's at `$GOPATH/pkg/mod`
     1. On Windows, it's at `%GOPATH%/pkg/mod`
 
-Now let's do a final bonus round!
+### Now let's do a final bonus round!
 
 1. I'm going to start up an Athens server on my local machine
     - This is the command I'm gonna run:
@@ -43,7 +44,9 @@ Now let's do a final bonus round!
     gomods/athens:v0.2.0
     ```
 1. Next, I'm going to fire up an [ngrok](https://ngrok.com) tunnel so that you can access it over the internet
-1. Now, point your `GOPROXY` to that address and clear your cache once more
+1. Now, point your `GOPROXY` to that address
+1. ... and clear your cache once more
+1. ... and don't forget to remove your `./hugo` binary too
 1. When you `go build`, let's look at the log messages that my local Athens spits out
 1. ... and that the Athens database on my local machine is filling up!
 
