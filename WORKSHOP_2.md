@@ -44,6 +44,7 @@ Let's get started :white_check_mark:
     gomods/athens:v0.2.0
     ```
 1. Next, I'm going to fire up an [ngrok](https://ngrok.com) tunnel so that you can access it over the internet
+    - This is the command I'm gonna run: `ngrok http 3000` 
 1. Now, point your `GOPROXY` to that address
 1. ... and clear your cache once more
 1. ... and don't forget to remove your `./hugo` binary too
