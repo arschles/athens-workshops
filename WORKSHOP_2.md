@@ -34,7 +34,6 @@ Let's get started :white_check_mark:
 
 1. I'm going to start up an Athens server on my local machine
     - This is the command I'm gonna run:
-    
     ```
     docker run --rm \
     -p 3000:3000 \
