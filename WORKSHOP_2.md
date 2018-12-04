@@ -50,4 +50,4 @@ Let's get started :white_check_mark:
 1. When you `go build`, let's look at the log messages that my local Athens spits out
 1. ... and that the Athens database on my local machine is filling up!
 
-**We've made Athens our cache in the cloud! :cloud:**
+**We've made Athens our cache (and our `vendor/` :grinning:) in the cloud! :cloud:**
