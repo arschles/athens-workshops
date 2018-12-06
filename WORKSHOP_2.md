@@ -1,6 +1,6 @@
 # Workshop 2: Let's Work With Athens!
 
-We're going to build [hugo](https://github.com/gohugo/hugo) _again_ in this workshop! If you forgot what Hugo is, check out the intro in [the first workshop](./WORKSHOP_1.md).
+We're going to build [hugo](https://github.com/gohugoio/hugo) _again_ in this workshop! If you forgot what Hugo is, check out the intro in [the first workshop](./WORKSHOP_1.md).
 
 Last time, we built Hugo with Go Modules, but we downloaded modules directly from version control systems like GitHub or GitLab. This time, we're still going to use modules, but we'll make one tiny change and download them from a module API instead.
 
