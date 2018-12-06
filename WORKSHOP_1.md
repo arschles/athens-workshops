@@ -1,6 +1,6 @@
 # Workshop 1: Let's Work With Modules!
 
-We're going to build [hugo](https://github.com/gohugo/hugo) in this workshop. Hugo is a super fast static site generator written in Go. It's widely used on the internet, including to build the [Athens documentation site](https://docs.gomods.io), [my personal site](https://arschles.com), and the [Go in 5 Minutes site](https://goin5minutes.com) (all shameless plugs, of course :grinning:)
+We're going to build [hugo](https://github.com/gohugoio/hugo) in this workshop. Hugo is a super fast static site generator written in Go. It's widely used on the internet, including to build the [Athens documentation site](https://docs.gomods.io), [my personal site](https://arschles.com), and the [Go in 5 Minutes site](https://goin5minutes.com) (all shameless plugs, of course :grinning:)
 
 **This workshop will take about 20 minutes**
 
