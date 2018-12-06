@@ -2,9 +2,7 @@
 
 We're going to build [hugo](https://github.com/gohugoio/hugo) in this workshop. Hugo is a super fast static site generator written in Go. It's widely used on the internet, including to build the [Athens documentation site](https://docs.gomods.io), [my personal site](https://arschles.com), and the [Go in 5 Minutes site](https://goin5minutes.com) (all shameless plugs, of course :grinning:)
 
-**This workshop will take about 20 minutes**
-
-Let's get started :white_check_mark:
+Let's get started! :white_check_mark: :rocket:
 
 1. Download [Hugo](https://github.com/gohugoio/hugo) with `git clone https://github.com/gohugoio/hugo.git`
 2. Check out the `go.mod` and `go.sum` files
